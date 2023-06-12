@@ -1,0 +1,114 @@
+* {background-color: #c0babc;
+font-family:'Times New Roman', Times, serif;
+margin:0;
+
+}
+
+.navigation{background-color: #2f4858;
+display:flex;
+justify-content: space-between;
+max-height: 65px;
+}
+
+.links {background-color: #2f4858;
+display:flex;
+gap:3rem;
+justify-content: space-between;
+padding:1.1rem 2rem 0.5rem 2rem;}
+
+a,h3{background-color: #2f4858;
+color: #eeeeee;}
+
+#logo{max-width: 65px;
+height: auto;
+padding-left: 1rem;
+background-color: #2f4858;
+}
+
+.greet{display: flex;
+background-color: #33658a;
+justify-content: space-evenly;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+
+.motto {display:flex;
+flex-direction: column;  
+justify-content: space-around;
+background-color: #33658a;
+}
+
+.motto h1 ,.motto p {background-color: #33658a;
+color: #eeeeee;
+align-items: center;
+padding-left: 10%;}
+
+.motto button {background-color: #ffffff;
+margin-left: 75%;
+max-width: 6rem;
+}
+
+
+.portfolio h1 {display: flex;
+background-color: #eeeeee;}
+
+h1{justify-content: center;
+padding: 2rem;}
+
+.projects {display:flex;
+    background-color: #eeeeee;
+justify-content: center; 
+gap: 5rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+h4{display: flex;
+    background-color: #eeeeee;
+     flex-direction: column;
+     gap: 2rem;
+     
+   
+}
+
+
+.mantra {display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+background-color: beige;
+}
+
+
+form ,h2,label{background-color: #33658a;
+color: #eeeeee;
+display: flex;
+flex-direction: column;
+padding-left: 3rem;}
+
+input{background-color: #eeeeee;
+max-width: 20rem;
+justify-content: space-around;
+padding-left: 3rem;
+}
+
+textarea{background-color: #eeeeee;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+max-width: 50%;
+height: 7rem;
+padding-left: 3rem;}
+
+form button {background-color: #ffffff;
+    margin-left: 50%;
+    max-width: 6rem;
+    margin-bottom: 1rem;
+    }
+
+    Footer{display: flex;
+        justify-content: center;
+    background-color: #2f4858;
+color: #eeeeee;}
