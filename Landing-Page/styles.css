@@ -112,3 +112,8 @@ form button {background-color: #ffffff;
         justify-content: center;
     background-color: #2f4858;
 color: #eeeeee;}
+
+img{display:flex;
+     height: auto;
+max-width: 450px;}
+h4{text-align: center;}
