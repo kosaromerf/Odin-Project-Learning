@@ -1,0 +1,32 @@
+div div{border: 1px solid red;
+    width:auto;
+    height: auto;
+
+
+}
+
+
+
+.hovered{background-color: black}
+
+.hoveredwhite{background-color: white}
+
+
+
+
+
+#container {
+    display:grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width:500px;
+    height: 500px;
+    background-color: bisque;
+
+
+
+    border: 1px solid black
+
+    
+   
+}
