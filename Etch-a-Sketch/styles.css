@@ -1,32 +1,110 @@
-div div{border: 1px solid red;
+.color{
     width:auto;
     height: auto;
-
-
 }
-
-
-
-.hovered{background-color: black}
-
-.hoveredwhite{background-color: white}
-
-
-
-
 
 #container {
     display:grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    width:500px;
-    height: 500px;
-    background-color: bisque;
-
-
-
-    border: 1px solid black
-
-    
-   
+    width:700px;
+    height:700px;
+    background-color: white;
+    border: 40px double black
 }
+
+body{display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: royalblue;}
+
+.name {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 5rem;}
+
+.greetings{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 2rem;}
+
+#input{width:200px;
+height: auto;
+font-size: 1.3rem;}
+
+.submit { width:auto;
+height: auto;
+border-radius: 50%;
+padding: 10px;
+font-weight: bolder;}
+
+.colors {display: flex;
+justify-content:space-evenly;
+width: 700px;
+margin:20px 0 20px 0;}
+
+.color {width:auto;
+    height: auto;
+    border-radius: 15%;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    }
+
+
+#black{background-color: black;
+color:white}
+
+
+#shade{background-color: gray;
+color: white}
+
+
+#rainbow{background: repeating-linear-gradient(
+    90deg,
+    red 0%,
+    orange 17%,
+    yellow 34%,
+    green 51%,
+    blue 68%,
+    indigo 85%,
+    violet 100%
+  )
+
+
+
+}
+
+
+
+#white{background-color: white;}
+
+
+
+
+
+/*<body>
+    <div class="name">
+        <h1 class="name">ETCH-A-SKETCH</h1>
+    </div>
+    <div class="greetings">
+        <h3 class="greetings">Select a size and a color and start sketching</h3>
+    </div>
+
+    <div class="input">
+        <input type="number" id="input" value="16">
+        <button class="submit">Submit/Reset</button>
+     
+    </div>
+
+    <div class="colors">
+        <button class="color" id="black">Black</button>
+        <button class="color" id="shade" >Shade</button>
+        <button class="color" id="rainbow">Rainbow</button>
+        <button class="color" id="white">Eraser</button>
+    </div>
+
+
+    <div class="container" id="container">
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>*/
